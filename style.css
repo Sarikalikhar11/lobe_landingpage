@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.nav {
+  padding: 10px 50px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.hero_content {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-left {
+  width: 50%;
+  padding: 70px 80px 80px 150px;
+}
+.content-left h1 {
+  font-weight: 600;
+  font-size: 65px;
+}
+.content-left h1 span {
+  color: #04ddb2;
+}
+.content-left p {
+  margin-top: 20px;
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+.content-left .btn-left {
+  background-color: #04ddb2;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content-left .btn-right {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #04ddb2;
+}
+.content-left i {
+  margin-left: 10px;
+  color: #04ddb2;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-btn:hover{
+  font-size: 18px;
+  background-color: #04ddb2;
+  padding:15px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border:none;
+  margin-top: 20px;
+  color:white;
+  font-weight: 600;
+}
+.hero_content h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.hero_content .content-link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.content-right {
+  width: 50%;
+  position: relative;
+}
+.content-right img,
+video {
+  top: -200px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+.section_one {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(224, 224, 224);
+} */
+.box1 {
+  padding: 70px 500px 30px 150px;
+}
+.box1 h1 {
+  /* margin: 40px 450px 30px 150px; */
+  font-size: 70px;
+  font-weight: 600;
+}
+.box1 h1 span {
+  color: #04ddb2;
+}
+.box1 p {
+  font-size: 25px;
+}
+.box2 img {
+  width: 100%;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 70px;;
+}
+.box3 h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.box3 button{
+  font-size: 20px;
+  background-color: #04ddb2;
+  padding:10px 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border:none;
+  margin-top: 20px;
+  color:white;
+  font-weight: 600;
+}
+.box3 button:hover{
+  font-size: 22px;
+  background-color: #04ddb2;
+  padding:11px 32px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border:none;
+  margin-top: 20px;
+  color:white;
+  font-weight: 600;
+}
+.hr{
+  width: 95%;
+  margin:40px;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 120px 5px 120px;
+}
+.footer .footer-img{
+  width: 20px;
+  height: 20px;
+}
+.soc_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.round{
+  position: relative;
+  background-color: #04ddb2;
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+.round i{
+  position: absolute;
+  left:22%;
+  top:17%;
+  color:white
+}
+.foot_one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer p{
+  color:gray;
+  margin-top: 20px;
+}
+footer a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
